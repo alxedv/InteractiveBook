@@ -1,0 +1,2 @@
+export const text1 = 
+"Meus netos, contarei a vocês a maior experiência da minha vida. A mais perigosa, mais difícil. Uma em que até hoje não sei como sobrevivi. Seus netos com os olhos arregalados e atentos a cada palavra. Paulinho ainda sentia o gosto do strogonoff e pensava se poderia comer mais depois. Mas após te ouvir dizer aquelas palavras, toda sua atenção fora direcionada pra você."

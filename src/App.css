@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(30, 37, 61);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.text {
+  font-size: 2rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.next-btn {
+  width: 100px;
+  height: 30px;
+  font-size: 1.3rem;
+  box-shadow: 0 0 1rem;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stranger {
+  width: 40%;
+  height: 20%;
+}
+
+.page6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reveal-stone {
+  height: 50px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.stone-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
