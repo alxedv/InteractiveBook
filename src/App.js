@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
 import sound from './assets/ambienceSound.mp3';
+import piano from './assets/piano.mp3';
 import Page0 from './pages/Page0';
 import Page1 from './pages/Page1';
 import Page2 from './pages/Page2';
@@ -19,7 +20,13 @@ export default class App extends Component {
       page: 0
     }
   }
-  componentDidMount() {
+
+  runPiano() {
+    var audio = new Audio(piano)
+    audio.play();
+  }
+
+  runAudio() {
     var audio = new Audio(sound)
     audio.play();
   }
@@ -39,6 +46,8 @@ export default class App extends Component {
         {page === 7 && <Page7 />}
         {page === 8 && <Page8 />}
         {page === 9 && this.setState({ page: 0 })}
+        {page === 0 && <button className='ambienceSound' onClick={this.runAudio}>Som ambiente</button>}
+        {page >= 3 && this.runPiano()}
         
         </div>
         <button

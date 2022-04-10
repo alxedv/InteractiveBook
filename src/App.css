@@ -58,3 +58,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+.ambienceSound {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+}
